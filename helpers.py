@@ -6,8 +6,8 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer 
 from nltk.corpus import stopwords
-nltk.download('stopwords')
-nltk.download('wordnet')      
+#nltk.download('stopwords')
+#nltk.download('wordnet')      
 
 
 def search_data(query,n,access_token):
